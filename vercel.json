@@ -3,15 +3,68 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.puruconstruction.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.puruconstruction.com"
+        }
+      ],
       "destination": "https://puruconstruction.com/",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.puruconstruction.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.puruconstruction.com"
+        }
+      ],
       "destination": "https://puruconstruction.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/pages/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/DESIGN.md",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
     }
   ]
 }

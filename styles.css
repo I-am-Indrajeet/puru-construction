@@ -1492,3 +1492,5 @@ button {
   }
 
 }
+
+.service-detail-link { display: inline-block; margin-top: 1rem; color: var(--green-dark); font-size: .82rem; font-weight: 700; text-underline-offset: .25em; }

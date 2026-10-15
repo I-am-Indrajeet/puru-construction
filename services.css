@@ -1,0 +1,7 @@
+.service-breadcrumb { margin-bottom: 2rem; color: var(--legal-muted); font-size: .85rem; }
+.service-page .legal-intro { margin-top: 2rem; }
+.service-contact address { font-style: normal; }
+.service-skip { position: absolute; left: 1rem; top: -5rem; padding: .75rem; background: white; z-index: 5; }
+.service-skip:focus { top: 1rem; }
+.service-page a:focus-visible { outline: 3px solid var(--legal-green); outline-offset: 4px; }
+@media(max-width: 620px) { .legal-header { gap: 1rem; padding: 1rem; } .legal-brand { gap: .5rem; } .legal-home { flex-shrink: 0; } }

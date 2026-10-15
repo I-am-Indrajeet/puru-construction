@@ -1,7 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://puruconstruction.com/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/puru-team-fleet.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/puru-equipment-yard.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/puru-tractor-field.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/puru-plant-operations.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/puru-site-blessing.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://puruconstruction.com/assets/punar-adhikari-managing-director.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://puruconstruction.com/road-construction.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://puruconstruction.com/bridge-culvert-construction.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://puruconstruction.com/drainage-construction.html</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://puruconstruction.com/civil-construction-supply.html</loc>
     <lastmod>2026-10-15</lastmod>
   </url>
   <url>
